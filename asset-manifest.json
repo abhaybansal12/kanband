@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/kanband/static/css/main.22e33122.css",
+    "main.js": "/kanband/static/js/main.00f8de2f.js",
+    "static/js/453.a7e47786.chunk.js": "/kanband/static/js/453.a7e47786.chunk.js",
+    "index.html": "/kanband/index.html",
+    "main.22e33122.css.map": "/kanband/static/css/main.22e33122.css.map",
+    "main.00f8de2f.js.map": "/kanband/static/js/main.00f8de2f.js.map",
+    "453.a7e47786.chunk.js.map": "/kanband/static/js/453.a7e47786.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.22e33122.css",
+    "static/js/main.00f8de2f.js"
+  ]
+}
