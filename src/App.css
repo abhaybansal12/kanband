@@ -1,0 +1,85 @@
+/* App.css */
+body, .App {
+  font-family: Arial, sans-serif;
+  background-color: #f7f8fa;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+.display-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.display-options select {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+
+.kanban-board {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding-bottom: 20px;
+}
+
+.column {
+  width: 300px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.column h2 {
+  font-size: 1.2em;
+  margin: 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  color: #555;
+}
+
+.card {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s;
+}
+
+.card:hover {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.card h3 {
+  font-size: 1em;
+  margin: 0 0 5px;
+  color: #333;
+}
+
+.card p {
+  font-size: 0.9em;
+  margin: 0;
+  color: #666;
+}
+
+.priority-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  font-size: 0.8em;
+  border-radius: 12px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.priority-urgent { background-color: #d9534f; }
+.priority-high { background-color: #f0ad4e; }
+.priority-medium { background-color: #5bc0de; }
+.priority-low { background-color: #5cb85c; }
+.priority-none { background-color: #777; }
